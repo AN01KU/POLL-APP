@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="335dp"
+        android:layout_height="118dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="fill"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="#FBF6F6"
+        android:textSize="52sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="292dp"
+        android:layout_height="79dp"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="31dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="loginactivity"
+        android:text="@string/login"
+        android:textColor="#070404"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="386dp"
+        android:layout_height="77dp"
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+        android:lines="2"
+        android:maxLines="2"
+        android:minLines="2"
+        android:onClick="signupactivity"
+        android:text="@string/new_here_create_an_account"
+        android:textColor="#FBF6F6"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="178dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="537dp"
+        android:background="#EFB0B0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/sitapp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

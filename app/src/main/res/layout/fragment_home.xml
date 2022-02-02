@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090000"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="406dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="372dp"
+        android:background="#090909"
+        android:capitalize="words"
+        android:textAlignment="center"
+        android:textColor="#F4EFEF"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bigusername"
+        android:layout_width="237dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="45dp"
+
+        android:foregroundGravity="center|fill"
+        android:gravity="center|fill"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#F1E9E9"
+        android:textSize="110sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="55dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="16dp"
+        android:background="#101010"
+        android:clickable="true"
+        android:foreground="@android:drawable/ic_input_add"
+        android:paddingHorizontal="20sp"
+        android:paddingVertical="20sp"
+        app:backgroundTint="#F11212"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:useCompatPadding="true" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="295dp"
+        android:layout_height="103dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="serif"
+        android:text="User Details"
+        android:textColor="#0E0E0E"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
